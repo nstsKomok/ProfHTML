@@ -267,6 +267,9 @@ a {
 
 .link-item {
     display: block;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
     font-size: 16px;
     line-height: 19px;
     color: #F26376;
@@ -474,4 +477,22 @@ a {
     text-align: center;
     color: #FFFFFF;
     margin-left: -3px;
+}
+
+.arrivals-bg {
+
+    background-color: #F8F3F4;
+}
+
+.top-arrivals {
+    height: 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-arrivals-left {
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
 }
