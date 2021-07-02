@@ -713,3 +713,160 @@ a {
     /* padding: 15px 10px; */
     border: 1px solid #FF6A6A;
 }
+
+.cart-box {
+    display: flex;
+}
+
+.product-boxes {
+    display: flex;
+    flex-direction: column;
+    margin-right: 128px;
+}
+
+.cart-item {
+    margin-bottom: 40px;
+    display: flex;
+    width: 652px;
+    position: relative;
+    filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+}
+
+.cart-img {
+    width: 262px;
+    height: 306px;
+    margin-right: 31px;
+}
+
+.close-cart-item {
+    position: absolute;
+    top: 28px;
+    right: 22px;
+}
+
+.mango {
+    margin-top: 22px;
+    margin-bottom: 42px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+}
+
+.mango-text {
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+}
+
+.mango-pink {
+    color: #EF5B70;
+}
+
+.cart-form {
+    width: 360px;
+}
+
+.cart-buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button-cart {
+    padding: 17px 40px;
+    border: 1px solid #A4A4A4;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.adress-header {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.adress-input {
+    border: 1px solid #A4A4A4;
+    width: 100%;
+    padding-top: 13px;
+    padding-left: 17px;
+    padding-bottom: 17px;
+    margin-bottom: 20px;
+}
+
+.quote {
+    margin-top: 23px;
+    margin-bottom: 57px;
+    padding: 10px 15px;
+    border: 1px solid #A4A4A4;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+}
+
+.proceed {
+    padding-top: 39px;
+    padding-right: 44px;
+    padding-left: 44px;
+    background: #F5F3F3;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-text {
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    margin-bottom: 12px;
+}
+
+.grand-text {
+    margin-bottom: 21px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.grand-pink {
+    color: #F16D7F;
+}
+
+.sub {
+
+    margin-right: 50px;
+}
+
+.grand-pink {
+    margin-left: 30px;
+}
+
+.sub-text,
+.grand-text {
+    text-align: right;
+}
+
+.checkout-line {
+    margin-bottom: 17px;
+    width: 275px;
+    height: 1px;
+    background-color: #E2E2E2;
+}
+
+.checkout {
+    margin-bottom: 42px;
+    padding: 15px 43px;
+    background-color: #F16D7F;
+    border: 1px solid #F26376;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
