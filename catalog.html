@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE BRAND
         OF LUXERIOUS FASHION</title>
+        <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 
 <body>
     <header class="header">
@@ -81,60 +83,44 @@
 
         </nav>
     </header>
-    <div class="top">
-        <div class="container box__top">
-            <div class="img__top"><img src="img/back-header.png" alt=""></div>
-            <div class="text__top">
-                <p class="text__top-p"><span class="text-bold">THE BRAND</span>
-                    <span class='text'>OF LUXERIOUS</span> <span class="text-color">FASHION</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <section class="content">
-        <div class="container box__content">
-            <div class="box__content-top">
-                <a href="#" class="link__content">
-                    <div class="div-img"><img src="img/top1.png" alt="photo1" class="content-img">
-                        <p class="text-img"><span class="white">30% OFF</span>
-                            <span class="pink">FOR WOMEN</span>
-                        </p>
-                    </div>
-                </a>
-                <a href="#" class="link-content">
-                    <div class="div-img"><img src="img/top2.png" alt="photo2" class="content-img">
-                        <p class="text-img"><span class="white">HOT DEAL</span>
-                            <span class="pink">FOR MEN</span>
-                        </p>
-                    </div>
-                </a>
-                <a href="#" class="link__content">
-                    <div class="div-img"><img src="img/top3.png" alt="photo3" class="content-img">
-                        <p class="text-img"><span class="white">NEW ARRIVALS</span>
-                            <span class="pink">FOR KIDS</span>
-                        </p>
-                    </div>
-                </a>
-            </div>
-            <div class="box__content-bottom">
-                <a href="#" class="link-content">
-                    <div class="div-img"><img src="img/bottom.png" alt="photo4">
-                        <p class="text-img"><span class="white">LUXIROUS & TRENDY</span>
-                            <span class="pink">ACCESORIES</span>
-                        </p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-    <section class="fetured-items container">
-        <h2 class="heading__fetured-items">
-            Fetured Items
-        </h2>
-        <p class="text__fetured-items">Shop for items based on what we featured in this week</p>
+    <div class="arrivals-bg">
+        <div class="container top-arrivals">
+    <div><h2 class="top-arrivals-left">NEW ARRIVALS </h2></div>
+    <div class="top-arrivals-right"><p><a class="text-top-arrivals" href="index.html">HOME /</a>  
+        <a href="#" class="text-top-arrivals">MEN /</a> 
+        <a class="text-top-arrivals" href="catalog.html"><span class="pink-arr">NEW ARRIVALS</span></a></p> </div>
+</div></div>
+<div class="container filter">
+     <div class="filter__icon"><span class="text-icon__filter">FILTER</span><!--<img src="img/catalog/filter.svg" alt="filter">--><svg  class='pink-filter' width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+<path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z" fill="#000000"/>
+</svg>
+<div class="filter-menu">
+CATEGORY
+<div class="border-filter"></div>
+</div>
+</div>
+
+
+<div class="ul-box__filter"><ul class="ul__filter">
+   <li class="li__filter">TRENDING NOW<img class='img-filter' src="img/filter.svg" alt="choose"></li>
+    <li class="li__filter size_filter">SIZE<img class='img-filter' src="img/filter.svg" alt="choose">
+       <div class="size-menu">
+        <input type="checkbox" name="size">XS
+        <br>
+        <input type="checkbox" name="size">S
+        <br>
+        <input type="checkbox" name="size">M
+        <br>
+        <input type="checkbox" name="size">L
+       </div> 
+    </li>
+    <li class="li__filter">PRICE<img class='img-filter' src="img/filter.svg" alt="choose"></li>
+</ul></div>
+</div>
+<section class="fetured-items container">
         <div class="items-box">
             <div class="item">
-                <a href="#" class="link-item"><img src="img/item1.png" alt="item1" class="item-img">
+                <a href="product.html" class="link-item"><img src="img/catalog/man1.png" alt="item1" class="item-img">
                     <h3 class="heading-item">ELLERY X M'O CAPSULE</h3>
                     <p class="text-item">Known for her sculptural takes on traditional tailoring, Australian arbiter of
                         cool
@@ -142,7 +128,7 @@
                     <p class="price-item">$52.00</p>
                 </a>
                 <div class="cart__item">
-                    <a href="#" class="link-cart__item">
+                    <a href="cart.html" class="link-cart__item">
                         <img src="img/cart.svg" alt="cart">
                         <p class="cart-text">Add to Cart</p>
                    </a>  
@@ -150,7 +136,7 @@
                 
             </div>
             <div class="item">
-                <a href="#" class="link-item"><img src="img/item2.png" alt="item2" class="item-img">
+                <a href="product.html" class="link-item"><img src="img/catalog/man2.png" alt="item2" class="item-img">
                     <h3 class="heading-item">LLERY X M'O CAPSULE</h3>
                     <p class="text-item">Known for her sculptural takes on traditional tailoring, Australian arbiter of
                         cool
@@ -158,14 +144,14 @@
                     <p class="price-item">$52.00</p>
                 </a>
                 <div class="cart__item">
-                    <a href="#" class="link-cart__item">
+                    <a href="cart.html" class="link-cart__item">
                         <img src="img/cart.svg" alt="cart">
                         <p class="cart-text">Add to Cart</p>
                    </a>  
                 </div>
             </div>
             <div class="item">
-                <a href="#" class="link-item"><img src="img/item3.png" alt="item3" class="item-img">
+                <a href="product.html" class="link-item"><img src="img/catalog/man3.png" alt="item3" class="item-img">
                     <h3 class="heading-item">LLERY X M'O CAPSULE</h3>
                     <p class="text-item">Known for her sculptural takes on traditional tailoring, Australian arbiter of
                         cool
@@ -173,14 +159,14 @@
                     <p class="price-item">$52.00</p>
                 </a>
                 <div class="cart__item">
-                    <a href="#" class="link-cart__item">
+                    <a href="cart.html" class="link-cart__item">
                         <img src="img/cart.svg" alt="cart">
                         <p class="cart-text">Add to Cart</p>
                    </a>  
                 </div>
             </div>
             <div class="item">
-                <a href="#" class="link-item"><img src="img/item4.png" alt="item4" class="item-img">
+                <a href="product.html" class="link-item"><img src="img/catalog/man4.png" alt="item4" class="item-img">
                     <h3 class="heading-item">LLERY X M'O CAPSULE</h3>
                     <p class="text-item">Known for her sculptural takes on traditional tailoring, Australian arbiter of
                         cool
@@ -188,14 +174,14 @@
                     <p class="price-item">$52.00</p>
                 </a>
                 <div class="cart__item">
-                    <a href="#" class="link-cart__item">
+                    <a href="cart.html" class="link-cart__item">
                         <img src="img/cart.svg" alt="cart">
                         <p class="cart-text">Add to Cart</p>
                    </a>  
                 </div>
             </div>
             <div class="item">
-                <a href="#" class="link-item"><img src="img/item5.png" alt="item5" class="item-img">
+                <a href="product.html" class="link-item"><img src="img/catalog/man5.png" alt="item5" class="item-img">
                     <h3 class="heading-item">LLERY X M'O CAPSULE</h3>
                     <p class="text-item">Known for her sculptural takes on traditional tailoring, Australian arbiter of
                         cool
@@ -203,14 +189,14 @@
                     <p class="price-item">$52.00</p>
                 </a>
                 <div class="cart__item">
-                    <a href="#" class="link-cart__item">
+                    <a href="cart.html" class="link-cart__item">
                         <img src="img/cart.svg" alt="cart">
                         <p class="cart-text">Add to Cart</p>
                    </a>  
                 </div>
             </div>
             <div class="item">
-                <a href="#" class="link-item"><img src="img/item6.png" alt="item6" class="item-img">
+                <a href="product.html" class="link-item"><img src="img/catalog/man6.png" alt="item6" class="item-img">
                     <h3 class="heading-item">LLERY X M'O CAPSULE</h3>
                     <p class="text-item">Known for her sculptural takes on traditional tailoring, Australian arbiter of
                         cool
@@ -218,16 +204,73 @@
                     <p class="price-item">$52.00</p>
                 </a>
                 <div class="cart__item">
-                    <a href="#" class="link-cart__item">
+                    <a href="cart.html" class="link-cart__item">
+                        <img src="img/cart.svg" alt="cart">
+                        <p class="cart-text">Add to Cart</p>
+                   </a>  
+                </div>
+            </div>
+            <div class="item">
+                <a href="product.html" class="link-item"><img src="img/catalog/man7.png" alt="item6" class="item-img">
+                    <h3 class="heading-item">LLERY X M'O CAPSULE</h3>
+                    <p class="text-item">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                        cool
+                        Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="price-item">$52.00</p>
+                </a>
+                <div class="cart__item">
+                    <a href="cart.html" class="link-cart__item">
+                        <img src="img/cart.svg" alt="cart">
+                        <p class="cart-text">Add to Cart</p>
+                   </a>  
+                </div>
+            </div>
+            <div class="item">
+                <a href="product.html" class="link-item"><img src="img/catalog/man8.png" alt="item6" class="item-img">
+                    <h3 class="heading-item">LLERY X M'O CAPSULE</h3>
+                    <p class="text-item">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                        cool
+                        Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="price-item">$52.00</p>
+                </a>
+                <div class="cart__item">
+                    <a href="cart.html" class="link-cart__item">
+                        <img src="img/cart.svg" alt="cart">
+                        <p class="cart-text">Add to Cart</p>
+                   </a>  
+                </div>
+            </div>
+            <div class="item">
+                <a href="product.html" class="link-item"><img src="img/catalog/man9.png" alt="item6" class="item-img">
+                    <h3 class="heading-item">LLERY X M'O CAPSULE</h3>
+                    <p class="text-item">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                        cool
+                        Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="price-item">$52.00</p>
+                </a>
+                <div class="cart__item">
+                    <a href="cart.html" class="link-cart__item">
                         <img src="img/cart.svg" alt="cart">
                         <p class="cart-text">Add to Cart</p>
                    </a>  
                 </div>
             </div>
         </div>
-        <button class="button-item"><a class='link-item__button' href="catalog.html">Browse All Product</a></button>
+        <nav class="pages">
+            <ul class="ul__pages">
+
+                <a href="#"><li class="li__pages"><img src="img/catalog/li1.svg" alt="prevPage"></li></a>
+                <a href="#"><li class="li__pages"><span class="pink-li">1</span></li></a>
+                <a href="#"><li class="li__pages">2</li></a> <a href="#"><li class="li__pages">3</li></a> <a href="#"><li class="li__pages">4</li></a> <a href="#"><li class="li__pages">5</li></a> <a href="#"><li class="li__pages">6</li></a>
+                <a href="#"><li class="li__pages">.....</li></a> 
+                <a href="#"><li class="li__pages">20</li></a>
+                <a href="#"><li class="li__pages"><img src="img/catalog/last_li.svg" alt="nextPage"></li></a>
+                
+
+            </ul>
+        </nav>
     </section>
-    <footer class="footer">
+  <footer class="footer">
         <div class="top__footer container">
             <div class="item__top__footer">
                 <img class='img__top__footer' src="img/left-footer.svg" alt="car">
@@ -285,4 +328,4 @@
     <script src="https://kit.fontawesome.com/a1fb4e81be.js" crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html>   
