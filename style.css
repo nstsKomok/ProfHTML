@@ -271,7 +271,7 @@ a {
 }
 
 .item {
-  width: 360px;
+  width: 32%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -279,10 +279,14 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-right: 30px;
+  margin-right: 1%;
   margin-bottom: 30px;
   background-color: #F8F8F8;
   text-align: left;
+}
+
+.item-img {
+  width: 100%;
 }
 
 .item:hover .item-img {
@@ -1275,5 +1279,24 @@ details summary::-webkit-details-marker {
 .reg-info-li:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+  .item {
+    width: 48%;
+  }
+  .top__footer,
+  .box__middle__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  .item {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
